@@ -219,7 +219,7 @@ public abstract class BaseSliderView {
             imageToLoad = mRes;
         }
 
-        RequestBuilder<Drawable> requestBuilder = Glide.with(mContext).as(Drawable.class);
+        RequestBuilder<Drawable> requestBuilder = Glide.with(targetImageView).as(Drawable.class);
 
         if (imageToLoad != null) {
             if (mRequestOptions != null) {

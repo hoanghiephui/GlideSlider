@@ -92,7 +92,7 @@ public class SliderLayout extends RelativeLayout {
     /**
      * InfiniteViewPager adapter.
      */
-    private SliderAdapter mSliderAdapter;
+    public SliderAdapter mSliderAdapter;
 
     /**
      * {@link com.glide.slider.library.Tricks.ViewPagerEx} indicator.
